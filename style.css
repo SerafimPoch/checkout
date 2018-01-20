@@ -164,6 +164,7 @@ main {
 }
 
 .left {
+	height: 120px;
 	border: 1px solid black;
 }
 
