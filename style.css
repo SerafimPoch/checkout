@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 
 body {
-    background: #eceef4;
+	background: #eceef4;
 }
 
 .head_sec {
@@ -46,7 +46,7 @@ body {
 	outline: 0;
 	font-family: 'FontAwesome';
 	font-size: 10px;
-	color: #9A9A9A;
+	color: rgb(165,171,197);
 }
 
 .go_back:hover, .sign_in:hover {
@@ -79,24 +79,28 @@ body {
 main {
 	margin: 20px auto;
 	background-color: white;
-	width: 100%   ;
+	width: 100%;
 	height: 100%;
 }
 
 .order_header {
 	padding-top: 20px;
 	padding-left: 33px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	font-family: 'FontAwesome';
-	font-size: 12px; 
+	font-size: 12px;
+	color: rgb(110, 118, 143) 
 }
 
 .order_list {
 	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
 	width: 100%;
 }
 
 .table_main {
+	width: 100%;
 	padding-left: 50px;
 }
 
@@ -107,6 +111,7 @@ main {
 	flex-flow: row wrap;
 	justify-content: space-between;
 	font-size: 11px;
+	color:rgb(110, 118, 143);
 }
 
 .table_orders_2 > table >tbody > tr {
@@ -116,6 +121,8 @@ main {
 	flex-flow: row wrap;
 	justify-content: space-between;
 	font-size: 10px;
+	color:rgb(165,171,197);
+	margin-bottom: 30px;
 }
 
 #details {
@@ -135,6 +142,33 @@ main {
 
 #lang_table_3 {
 	padding-left: 20px;
+}
+
+.button_order {
+	position: relative;
+	top: -80px;
+	padding-left: 520px;
+	width:200px;
+	height: 90px;
+	
+}
+
+.place_order {
+	width: 130px;
+	height: 35px;
+}
+
+.print_a_quote {
+	width: 130px;
+	height: 35px;
+}
+
+.left {
+	border: 1px solid black;
+}
+
+.rigth {
+	flex-grow: 400px;
 }
 
 
