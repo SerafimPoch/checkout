@@ -100,14 +100,9 @@ main {
 	padding-left: 20px;
 }
 
-/* .order_list {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
+.order_list {
 	border-bottom: 0.5px solid #c9d0e1;
-} */
+}
 
 .table_main {
 	display: flex;
@@ -201,9 +196,7 @@ main {
 	background-color: skyblue;
 }
 
-.left {
-	flex-grow: 100%;
-	
+.left {	
 
 }
 
@@ -214,7 +207,7 @@ main {
 	display: -o-flex;
 	display: flex;
 	border-left: 0.5px solid #c9d0e1;
-	width: 400px;
+	max-width: 200px;
 	
 	flex-flow: column wrap;
 	
@@ -224,7 +217,7 @@ main {
 	font-family: 'FontAwesome';
 	font-size: 11px;
 	color: rgb(110, 118, 143);
-	width: 220px;
+	max-width: 220px;
 	padding-left: 20px;
 	
 }
@@ -255,6 +248,7 @@ main {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	flex-flow: row wrap;
 	padding:10px;
 }
 
