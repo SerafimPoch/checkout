@@ -208,8 +208,7 @@ main {
 	display: -o-flex;
 	display: flex;
 	border-left: 0.5px solid #c9d0e1;
-	max-width: 200px;
-	
+	width: 200px;
 	flex-flow: column wrap;
 	
 }
