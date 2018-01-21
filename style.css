@@ -196,8 +196,9 @@ main {
 	background-color: skyblue;
 }
 
-.left {	
-
+.left_main{	
+	display: flex;
+	flex-flow: row wrap;
 }
 
 .right {
