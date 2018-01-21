@@ -163,6 +163,7 @@ main {
 	flex-direction: column;
 	justify-content: space-around;
 	padding-right: 30px;
+	padding-left: 20px;
 }
 
 .place_order {
@@ -267,6 +268,10 @@ main {
 	font-family: 'FontAwesome';
 }
 
+.wrapper {
+	max-width: 1600px;
+	margin: auto;
+}
 
 
 
