@@ -386,17 +386,20 @@ input[name=var]:checked + .select_wrapper:after {
 	background-color: rgb(247,247,250);
 	border-radius: 4px;
 	border: 0.5px solid #c9d0e1; 
-	font-size: 12px;
+	font-size: 13px;
 
 }
 
 .file-upload__label:hover {
 	cursor: pointer;
-     background: #000;
+	border: skyblue 2px solid;    
+}
+
+.file-upload__label:active {
+	background-color: skyblue;   
 }
 
 .file-upload__input {
-
     left: 0;
     top: 0;
     right: 0;
@@ -407,3 +410,117 @@ input[name=var]:checked + .select_wrapper:after {
     opacity: 0;
 }
 
+.up_tb_container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border: 0.5px solid #c9d0e1; 
+	margin-bottom: 80px;
+	margin-left: 50px;
+	margin-right: 105px;
+}
+
+.up_tb_container {
+	padding: 18px;
+}
+
+.biss_1 {
+	display: flex;
+	flex-flow: row wrap;
+	margin-bottom: 13px;
+}
+.file_name {
+	font-size: 12px;
+	color: rgb(110, 118, 143);
+	margin-bottom: 10px;
+}
+
+.biss_1_text_1 {
+	font-size: 12px;
+	color: rgb(165,171,197);
+	padding-left: 10px;
+}
+
+.text_img, .text_img_2 {
+	width:12px;
+	height: 13px;
+}
+
+.container_1 {
+	display: flex;
+	flex-flow: column wrap;
+	margin-left: 15px;
+}
+
+.biss_2_text_2 {
+	padding-left: 10px;
+	font-size: 12px;
+	color: rgb(165,171,197);
+}
+
+.biss_2 {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.container_2 {
+	display: flex;
+	flex-flow: column wrap;
+	
+}
+
+.file_size_text {
+	font-size: 12px;
+	color: rgb(110, 118, 143);
+	margin-bottom: 12px;
+}
+
+.kb_1_text, .kb_2_text {
+	font-size: 12px;
+	color: rgb(165,171,197);
+	padding-left: 10px;
+}
+
+.kb_2_text {
+	margin-top: 12px;
+}
+
+.number_words {
+	font-size: 12px;
+	color: rgb(110, 118, 143);
+	margin-bottom: 15px;
+}
+
+.num_1, .num_2 {
+	font-size: 12px;
+	color: rgb(165,171,197);
+	padding-left: 10px;
+}
+
+.num_2 {
+	margin-top: 12px;
+}
+
+.img_trash, .img_trash_2 {
+	width:  12px;
+	height: 12px;
+}
+
+.remove_text {
+	font-size: 12px;
+	color: rgb(110, 118, 143);
+	margin-bottom: 12px;
+}
+
+.container_3 {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.container_4 {
+	margin-top: 2px;
+	margin-right: 20px;
+	display: flex;
+	flex-flow: column wrap;
+	text-align: center;
+}
