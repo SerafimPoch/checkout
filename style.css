@@ -352,7 +352,7 @@ input[name=var]:checked + .select_wrapper:after {
 	margin-bottom: 30px;
 }
 
-.number_one {
+.number_one, .number_3 {
 	border: 0.5px solid rgb(110, 118, 143);
 	border-radius: 50%;
 	width: 30px;
@@ -542,9 +542,10 @@ input[name=var]:checked + .select_wrapper:after {
 }
 
 .choose {
-	    display: flex;
-	  flex-flow: column wrap;
-	margin-left: 50px;
+	  display: flex;
+	flex-flow: column wrap;
+  margin-left: 50px;
+margin-bottom: 50px;
 }
 
 .choose_1 {
@@ -553,7 +554,7 @@ input[name=var]:checked + .select_wrapper:after {
 	margin-bottom: 30px;
 }
 
-.choose_1_text_block {
+.choose_1_text_block, .number_3_text_wrap {
 	padding-left: 18px;
 	   font-size: 19px;
     	   color: rgb(110, 118, 143);
@@ -566,11 +567,11 @@ input[name=var]:checked + .select_wrapper:after {
     	   height: 30px;	
 }
 
-.number_2 {
-	 font-size: 14px;
-    text-align: center;
-   padding-top: 6px;
-    	 color: rgb(110, 118, 143);
+.number_2, .number_3_text {
+	font-size: 14px;
+   text-align: center;
+  padding-top: 6px;
+    	color: rgb(110, 118, 143);
 }
 
 .choose_2, .choose_3 {
@@ -630,5 +631,55 @@ input[name=var]:checked + .select_wrapper:after {
 	margin-left: 20px;
 }
 
+.sec_3_4 {
+	display: flex;
+  flex-flow: row wrap;
+margin-left: 50px;
+}
 
+.three {
+	display: flex;
+  flex-flow: column wrap;
+}
 
+.wrapper_three_1, .wrapper_three_2 .wrapper_three_3 {
+	  display: flex;
+    flex-flow: row wrap;
+}
+
+.wrapper_three_1 {
+	margin-bottom: 25px;
+}
+
+.three_label_1, .three_label_2 {
+	padding-left: 50px;
+	margin-bottom: 17px;
+}
+.label_th_1 {
+	display: flex;
+	flex-flow: row wrap;
+	width: 170px;
+	height: 45px;
+	background-color: rgb(247,247,250);
+	text-align-last: center; 
+	text-align: center;
+	border: 0.5px solid #d7d8e0;
+	border-radius: 4px;
+}
+
+.label_th_1:hover {
+	border: 3px solid skyblue;
+}
+
+.label_th_1_text, .label_th_2_text {
+	padding-left: 10px;
+	 padding-top: 14px;
+		   color: #9098b7;
+	   font-size: 14px;
+}
+
+.i_font_2, .i_font_3, .i_font_4 {
+	padding-left: 20px;
+	 padding-top: 14px;
+	       color: #9098b7;
+}
