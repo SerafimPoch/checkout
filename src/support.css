@@ -126,28 +126,28 @@ input[type=range]:before {
 }
 	
 input[name=var]:checked + .select_wrapper:after {
-	content: url("img/check.png");
+	content: url("../img/check.png");
   position: relative;
   top: -158px;
   right: -213px;
 }
 
 input[name=button_group]:checked + .wrapper_label_th_1:after {
-  content: url("img/check.png");
+  content: url("../img/check.png");
   position: relative;
   top: -14px;
   right: -19px;
 }
 
 input[name=button_group_1]:checked + .wrapper_label_th_2:after {
-  content: url("img/check.png");
+  content: url("../img/check.png");
   position: relative;
   top: -14px;
   right: -28px;
 }
 
 input[name=button_group_2]:checked + .wrapper_label_th_3::after {
-  content: url("img/check.png");
+  content: url("../img/check.png");
   position: relative;
   top: -14px;
   right: -30px;
