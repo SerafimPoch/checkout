@@ -146,7 +146,7 @@ input[name=button_group_1]:checked + .wrapper_label_th_2:after {
   right: -28px;
 }
 
-input[name=button_group_2]:checked + .wrapper_label_th_3::after {
+input[name=button_group_2]:checked + .wrapper_label_th_3:after {
   content: url("../img/check.png");
   position: relative;
   top: -14px;
