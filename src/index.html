@@ -5,6 +5,8 @@
         <meta charset=utf-8>
         <meta name=viewport content="width=device-width, initial-scale=1">
         <link rel=stylesheet href=style.css>
+        <link rel=stylesheet href=support.css>
+        <link rel=stylesheet href=reset.css>
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/8e21995b2c.js"></script>
     </head>
@@ -296,63 +298,105 @@
             <div class=three>
                 <div class=wrapper_three_1>
                     <div class=number_3>
-                        <p class=number_3_text>2</p>
+                        <p class=number_3_text>3</p>
                     </div>
                     <div class=number_3_text_wrap>
                         <p>Select your desired tone</p>
                     </div>
                 </div>
+             <div class=wrapper_main_three>
                 <div class=wrapper_three_2>
-                    <div class=three_label_1>
+                    <label  for=comments 
+                            class=three_label_1>
                         <input type=radio 
                                hidden 
                                required
-                               id=comments>
-                        <label class=label_th_1 
-                               for=comments>
+                               id=comments
+                               name=button_group>
+                        <div class=wrapper_label_th_1 >
                             <i class="fa fa-comments i_font_2" 
                                aria-hidden="true"></i>
                             <p class=label_th_1_text>
                                 Friendly/Casual
                             </p>
-                        </label>
+                        </div>
                     </div>
                 <div class=wrapper_three_3>
-                    <div class=three_label_1>
+                    <label  for=suitcase 
+                          class=three_label_1>
                         <input type=radio 
                                hidden 
                                required
-                               id=suitcase>
-                        <label class=label_th_1 
-                               for=suitcase>
+                               id=suitcase
+                               name=button_group_1>
+                        <div class=wrapper_label_th_1>
                                 <i class="fa fa-suitcase i_font_3" 
                                    aria-hidden="true"></i>
                                 <p class=label_th_1_text>
                                     Corporate/Pro
                                 </p>
-                        </label>
-                    </div>
+                            </div>
                     </div>
                 <div class=wrapper_three_4>
-                    <div class=three_label_1>
+                    <label class=three_label_1
+                           for=bullhorn>
                         <input type=radio 
                                hidden 
                                required
-                               id=bullhorn>
-                        <label class=label_th_1 
-                               for=bullhorn>
+                               id=bullhorn
+                               name=button_group_2>
+                        <div class=wrapper_label_th_1 >
                                <i class="fa fa-bullhorn i_font_4" 
                                  aria-hidden="true"></i>
                             <p class=label_th_1_text>
                                 Media/Formal
                             </p>
-                                </label>
+                        </div>
                             </div>
+                     </div>
                     </div>
-            </div>
-        </div>
             <div class=four>
-
+                <div class=wrapper_three_1>
+                    <div class=number_3>
+                        <p class=number_3_text>4</p>
+                    </div>
+                    <div class=number_3_text_wrap>
+                        <p>Tell us how urgent this job is</p>
+                    </div>
+                </div>
+                <div class=scroll_wrapper>
+                    <div class=scroll>
+                        <input required
+                               type=range 
+                               name=urgent
+                               min=0 max=100
+                               stop=25 value=50>
+                               
+                    </div>
+                    <div class=scroll_text>
+                        <p>I GOT TIME</p>
+                        <p class=orange>AVERAGE</p>
+                        <p>YESTERDAY</p>
+                    </div>
+                </div>
+                <div class=block_info>
+                        <div class=head_block_info>
+                            <div class=time_line_img>
+                                <i class="fa fa-info" aria-hidden="true"></i>
+                            </div>
+                            <div class=time_line_text>
+                                <span class=legend-title>
+                                    TIMELINE INFO
+                                </span>
+                            </div>
+                        </div>
+                        <div class=block_info_text>
+                            <p>With an <span class=orange>AVERAGE</span> timeline set up, 
+                                our expert translator can take a 
+                                reasonable amount of time perfecting 
+                                your translation</p>
+                        </div>
+                        </div>
             </div>
             </section>
     </main>
