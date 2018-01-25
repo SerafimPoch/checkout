@@ -16,7 +16,6 @@ body {
 	align-items: center;	
 }
 
-
   .go_back, .sign_in {
 	background-color: #eceef4;
 	border:  0.5px solid #c9d0e1;
@@ -322,7 +321,7 @@ main {
 	margin-bottom: 30px;
 }
 
-.number_one, .number_3 {
+.number_one, .number_3, .number_5 {
 	border: 0.5px solid rgb(110, 118, 143);
 	border-radius: 50%;
 	width: 30px;
@@ -524,7 +523,7 @@ margin-bottom: 50px;
 	margin-bottom: 30px;
 }
 
-.choose_1_text_block, .number_3_text_wrap {
+.choose_1_text_block, .number_3_text_wrap, .number_5_text_wrap {
 	padding-left: 18px;
 	   font-size: 19px;
     	   color: rgb(110, 118, 143);
@@ -605,6 +604,7 @@ margin-bottom: 50px;
 	display: flex;
   flex-flow: row wrap;
 margin-left: 50px;
+margin-bottom: 10px;
 }
 
 .three {
@@ -612,7 +612,7 @@ margin-left: 50px;
   flex-flow: column wrap;
 }
 
-.wrapper_three_1, .wrapper_three_2 .wrapper_three_3 {
+.wrapper_three_1, .wrapper_three_2 .wrapper_three_3, .title_5 {
 	  display: flex;
     flex-flow: row wrap;
 }
@@ -717,4 +717,55 @@ margin-left: 50px;
 
   .wrapper_main_three {
 	  margin-left: 50px;
+  }
+
+  .sec_5 {
+	  display: flex;
+	  flex-flow: column wrap;
+  }
+
+  .title_5 {
+	margin-left: 50px;
+  margin-bottom: 30px;
+  }
+
+  .bottom_text {
+  margin-left: 100px;
+	  display: flex;
+	flex-flow: row wrap;
+margin-bottom: 35px;
+  }
+
+  .text_already {
+	  padding-right: 5px;
+	  font-size: 14px;
+	  color: rgb(165,171,197);
+  }
+
+  a:hover {
+	color: rgb(165,171,197);
+	font-size: 14px;
+  }
+
+  .input_name_wrapper {
+	  display: flex;
+	flex-flow: column wrap;
+	padding-left: 100px;
+  }
+
+  .full_name {
+	color: rgb(165,171,197);
+	font-size: 12px;
+	padding-bottom: 8px;
+	padding-left: 7px;
+  }
+
+  .input_email_password_wrapper {
+	  display: flex;
+    flex-flow: row wrap;
+ padding-left: 100px;
+  }
+
+  .input_password_wrapper {
+		padding-left: 20px;
   }

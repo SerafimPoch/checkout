@@ -152,3 +152,31 @@ input[name=button_group]:checked + .wrapper_label_th_3:after {
   top: -14px;
   right: -30px;
 }
+
+input[name=name]{
+  width: 200px;
+  height: 30px;
+  color: #6e768f;
+  border: 1px solid #d7d9e0;
+  border-radius: 3px;
+  padding: 0.5em 2.5em 0.5em 1em;
+}
+
+input[name=name]+label{
+  position: relative;
+  display: block;
+}
+
+input[name=name]:valid+label:before{
+  content: url("../img/check.png");
+  position: relative;
+  top: -37px;
+  right: -205px;
+}
+
+input[name=name]:invalid+label:before{
+  content: url("../img/invalid.png");
+  position: relative;
+  top: -33px;
+  right: -210px;
+}
