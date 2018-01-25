@@ -4,9 +4,9 @@
         <title>Task_11</title>
         <meta charset=utf-8>
         <meta name=viewport content="width=device-width, initial-scale=1">
-        <link rel=stylesheet href=/src/style.css>
-        <link rel=stylesheet href=/src/support.css>
-        <link rel=stylesheet href=/src/reset.css>
+        <link rel=stylesheet href=style.css>
+        <link rel=stylesheet href=support.css>
+        <link rel=stylesheet href=reset.css>
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/8e21995b2c.js"></script>
     </head>
@@ -15,18 +15,18 @@
     <section class=head_sec>
         <div>
             <button class=go_back>
-            <img    src=/img/left-arrow.png 
+            <img    src=../img/left-arrow.png 
                     class=left_arrow>
                GO BACK
             </button>
         </div>
          <div>
-            <img src=/img/logo.png
+            <img src=../img/logo.png
                  class=logo_head>
         </div>
         <div>
             <button class=sign_in>
-            <img    src=/img/man-shape.png 
+            <img    src=../img/man-shape.png 
                     class=face>
                SIGN IN
             </button>
@@ -116,7 +116,7 @@
                        value=website>
                 <div class=select_wrapper>
                     <img class=select_img 
-                         src=/img/website.png 
+                         src=../img/website.png 
                          alt=website>
                     <p class=label_text>Website</p>
                 </div>
@@ -130,7 +130,7 @@
                             value=website>
                         <div class=select_wrapper>
                             <img class=select_img 
-                                 src=/img/documents.png 
+                                 src=../img/documents.png 
                                  alt=documents>
                             <p class=label_text>Documents</p>
                         </div>
@@ -144,7 +144,7 @@
                                value=website>
                             <div class=select_wrapper>
                                 <img class=select_img 
-                                     src=/img/social-account.png 
+                                     src=../img/social-account.png 
                                      alt=social_account>
                             <p class=label_text>Social Account</p>
                             </div>
@@ -181,7 +181,7 @@
                             </div>
                             <div class=biss_1>
                                 <img class=text_img 
-                                     src=/img/text-file.png
+                                     src=../img/text-file.png
                                      alt=text_img>
                                 <p class=biss_1_text_1>
                                     business_operations.docx
@@ -189,7 +189,7 @@
                             </div>
                             <div class=biss_2>
                                     <img class=text_img 
-                                    src=/img/text-file.png
+                                    src=../img/text-file.png
                                     alt=text_img>
                                <p class=biss_2_text_2>
                                    business_finantial.docx
@@ -229,7 +229,7 @@
                         </div>
                     <div class=trash_2>
                         <img class=img_trash_2
-                             src=/img/trash.png
+                             src=../img/trash.png
                              alt=trash>
                         </div>
                         </div>
@@ -282,7 +282,7 @@
                 </div>
                 <div class=choose_3_trash>
                     <img class="img_trash" 
-                         src="/img/trash.png" 
+                         src="../img/trash.png" 
                          alt="trash">
                 </div>
                 <div class=choose_3_button>
@@ -328,8 +328,8 @@
                                hidden 
                                required
                                id=suitcase
-                               name=button_group_1>
-                        <div class=wrapper_label_th_1>
+                               name=button_group>
+                        <div class=wrapper_label_th_2>
                                 <i class="fa fa-suitcase i_font_3" 
                                    aria-hidden="true"></i>
                                 <p class=label_th_1_text>
@@ -344,8 +344,8 @@
                                hidden 
                                required
                                id=bullhorn
-                               name=button_group_2>
-                        <div class=wrapper_label_th_1 >
+                               name=button_group>
+                        <div class=wrapper_label_th_3>
                                <i class="fa fa-bullhorn i_font_4" 
                                  aria-hidden="true"></i>
                             <p class=label_th_1_text>
@@ -370,8 +370,7 @@
                                type=range 
                                name=urgent
                                min=0 max=100
-                               stop=25 value=50>
-                               
+                               stop=25 value=50>      
                     </div>
                     <div class=scroll_text>
                         <p>I GOT TIME</p>
@@ -398,6 +397,79 @@
                         </div>
                         </div>
             </div>
+            </section>
+            <section class=sec_5>
+                <div class=title_5>
+                    <div class=number_5>
+                        <p class=number_3_text>5</p>
+                    </div>
+                    <div class=number_5_text_wrap>
+                        <p>Sign up and choose a payment method</p>
+                    </div>
+                </div>
+                <div class=bottom_text>
+                    <p class=text_already>
+                Already have a account with us ?
+                    </p>
+                <a href=#>Sign in</a>
+                </div>
+                <div class=input_name_wrapper>
+                    <div class=input_name>
+                        <p class=full_name>
+                    FULL NAME
+                        </p>       
+                    </div>
+                    <div class=input_form>
+                        <div>
+                        <input name="name" 
+                               id="name" 
+                               required 
+                               value="Mathieu Mayer" 
+                               placeholder="">
+                        <label for="name"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class=input_email_password_wrapper>
+                    <div class=input_email_wrapper>
+                        <div class=email_name>
+                                <p class=full_name>
+                                    EMAIL ADRESS
+                                </p>
+                            </div>
+                        <div class=email_form>
+                            <div>
+                                <input type="email" 
+                                       name="name" 
+                                       required 
+                                       id="email" 
+                                       value="mathieu.mm@me.com" 
+                                       placeholder="">
+                                <label for="email"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=input_password_wrapper>
+                        <div class=password>
+                             <div class=password_name>
+                                <p class=full_name>
+                            CHOOSE A PASSWORD
+                                </p>
+                            </div>
+                        </div>
+                        <div class=password_form>
+                            <div>
+                                <input minlength="8"
+                                    type="password" 
+                                    name="name" 
+                                    id="password" 
+                                    required 
+                                    title="Password length be 8 characters minimum">
+                                <label for="password"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
     </main>
 
