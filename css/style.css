@@ -62,8 +62,10 @@ body {
 
 main {
 	border: 0.5px solid #c9d0e1;
+	font-family: 'Nunito Sans', sans-serif;
 	border-radius: 4px;
 	margin: 20px auto;
+	margin-bottom: 80px;
 	background-color: white;
 	width: 76%;
 	height: 100%;
@@ -357,7 +359,6 @@ main {
 
 .upload_file_wrapper {
   display:flex;
-  margin-left: 50px;
   margin-bottom: 25px;
 }
 
@@ -372,7 +373,6 @@ main {
 	border-radius: 4px;
 	border: 0.5px solid #c9d0e1; 
 	font-size: 13px;
-
 }
 
 .file-upload__label:hover {
@@ -621,7 +621,7 @@ margin-bottom: 10px;
 	margin-bottom: 10px;
 }
 
-.three_label_1, .three_label_2 {
+.three_label_1, .three_label_2, .upload_label {
 	padding-left: 50px;
 	margin-bottom: 17px;
 }
@@ -651,6 +651,9 @@ margin-bottom: 10px;
 	 padding-top: 14px;
 	       color: #9098b7;
 }
+ul {
+	list-style-type: none;
+}
 
 .four {
 	display: flex;
@@ -679,7 +682,6 @@ margin-bottom: 10px;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
 	  padding-top: 10px;
-	  padding-right: 80px;
 	  font-size: 10px;
 	  color: #9098b7;
   }
@@ -848,4 +850,59 @@ margin-bottom: 35px;
   .check_text {
 	  font-size: 12px;
 	  color: rgb(110, 118, 143);
+  }
+
+
+  /* ==========FOOTER========== */
+
+  .sec_footer {
+	     display: flex;
+       flex-flow: row wrap;
+ justify-content: space-around;
+background-color: rgb(68,73,98);
+	 font-family: 'Nunito Sans', sans-serif;
+		   width: 100%;
+		  height: 100%;
+	 padding-top: 50px;
+  padding-bottom: 70px;
+	       color: rgb(201,208,237);
+}
+
+  .footer_text_block {
+	  display: flex;
+    flex-flow: column wrap;
+  }
+
+  .footer_text_block_head {
+	  display: flex;
+	flex-flow: row wrap;
+margin-bottom: 8px;
+  }
+
+  .footer_text_block_main {
+	  display: flex;
+	flex-flow: column wrap;
+  }
+
+  .foot_main_sub {
+	display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 5px;
+  }
+
+  .footer_image {
+	  margin-left: 80px;
+  }
+
+  .i_font_5 {
+	  padding-right: 10px;
+  }
+
+  .foot_head_text {
+	  font-size: 10px;
+  }
+
+  .footer_text_block_main {
+	  font-size: 10px;
+	  padding-left: 25px;
   }
