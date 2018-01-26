@@ -89,14 +89,14 @@ main {
 	border-bottom: 0.5px solid #c9d0e1;
 }
 
-.table_main {
+.order_main {
 	display: flex;
 	flex-flow: column wrap;
 	padding-left: 35px;
 	padding-top:  20px;
 }
 
-.table_orders_1 > table >tbody > tr {
+.table_1 > table >tbody > tr {
 	width: 450px;
 	height: 12px;
 	display: flex;
@@ -106,7 +106,7 @@ main {
 	color:rgb(110, 118, 143);
 }
 
-.table_orders_2 > table >tbody > tr {
+.table_2 > table >tbody > tr {
 	width: 450px;
 	height: 12px;
 	display: flex;
@@ -114,7 +114,6 @@ main {
 	justify-content: space-between;
 	font-size: 10px;
 	color:rgb(165,171,197);
-	margin-bottom: 30px;
 }
 
 #details {
@@ -182,7 +181,7 @@ main {
 	background-color: skyblue;
 }
 
-.left_main{	
+.left {	
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -251,13 +250,7 @@ main {
 	padding-right: 10px;
 }
 
-.wrapper {
-	max-width: 1600px;
-	height: 100%;
-	margin: auto;
-}
-
-.select_what {
+.sec_2 {
 	display: flex;
 	justify-content: center;
 }
@@ -272,7 +265,7 @@ main {
 	color: rgb(110, 118, 143);
 }
 
-.three_labels {
+.sec_3 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -311,7 +304,7 @@ main {
 	padding-top: 5px;
 }
 
-.upload {
+.sec_4 {
 	display: flex;
 	flex-flow: column wrap;
 	margin-left: 50px;
@@ -510,7 +503,7 @@ main {
 	text-align: center;
 }
 
-.choose {
+.sec_5 {
 	  display: flex;
 	flex-flow: column wrap;
   margin-left: 50px;
@@ -600,7 +593,7 @@ margin-bottom: 50px;
 	margin-left: 20px;
 }
 
-.sec_3_4 {
+.sec_6 {
 	display: flex;
   flex-flow: row wrap;
 margin-left: 50px;
@@ -721,7 +714,7 @@ ul {
 	  margin-left: 50px;
   }
 
-  .sec_5 {
+  .sec_7 {
 	  display: flex;
 	  flex-flow: column wrap;
 	  margin-bottom: 20px;
@@ -772,7 +765,7 @@ margin-bottom: 35px;
 	padding-left: 20px;
   }
 
-  .sec_6 {
+  .sec_8 {
 	  width: 650px;
 	display: flex;
   flex-flow: row wrap;
@@ -799,7 +792,7 @@ margin-bottom: 35px;
 	  height: 20px;
   }
 
-  .sec_7 {
+  .sec_9 {
 	  width: 650px;
 	  display: flex;
 	  flex-flow: row wrap;
@@ -821,7 +814,7 @@ margin-bottom: 35px;
 	margin-top: 8px;
   }
 
-  .sec_8 {
+  .sec_10 {
 	  display: flex;
 	  flex-flow: row wrap;
 	  align-items: center;
@@ -855,7 +848,7 @@ margin-bottom: 35px;
 
   /* ==========FOOTER========== */
 
-  .sec_footer {
+  .sec_11 {
 	     display: flex;
        flex-flow: row wrap;
  justify-content: space-around;
